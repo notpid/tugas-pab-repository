@@ -1,0 +1,67 @@
+git init :
+git init adalah Inisialisasi repositori Git baru di direktori saat ini.
+
+git clone [URL] :
+git clone https://github.com/username/repository.git
+Mengkloning repositori Git yang sudah ada dari URL ke direktori lokal Anda.
+
+git add [file]
+git add index.html
+Menambahkan perubahan pada file tertentu ke staging area untuk persiapan di-commit.
+
+git commit -m "[pesan]"
+git commit -m "Menambahkan halaman utama"
+Membuat commit dari perubahan yang ada di staging area dengan pesan komit yang diberikan.
+
+git status
+Menampilkan status dari repositori Git, termasuk perubahan yang belum ditandai, yang sudah ditandai, dan informasi lainnya.
+
+git pull
+git pull origin master
+Mengambil perubahan terbaru dari repositori remote dan menggabungkannya dengan branch lokal saat ini.
+
+git push
+git push origin master
+Mengirimkan perubahan yang sudah di-commit ke repositori remote.
+
+git branch
+Menampilkan daftar branch yang ada dalam repositori.
+
+git checkout [nama_branch]
+git checkout develop
+Beralih ke branch lain dalam repositori.
+
+git merge [nama_branch]
+git merge feature-branch
+Menggabungkan branch tertentu dengan branch saat ini.
+
+git remote add [nama_remote] [URL_remote]
+git remote add origin https://github.com/username/repository.git
+Menambahkan remote repository dengan nama tertentu.
+
+git remote -v
+Menampilkan daftar remote repository beserta URL-nya.
+
+git log
+Menampilkan catatan log dari commit yang ada.
+
+git reset [file]
+git reset index.html
+Mengembalikan file tertentu ke kondisi sebelumnya sebelum ditambahkan ke staging area.
+
+git reset --hard
+git reset --hard HEAD~1
+Mengembalikan repositori ke commit tertentu, menghapus semua perubahan setelah commit tersebut.
+
+git stash
+Menyimpan perubahan yang belum di-commit secara sementara untuk bekerja pada branch lain atau melakukan tindakan lainnya.
+
+git stash pop
+Mengambil kembali perubahan yang disimpan secara sementara dari stash.
+
+git diff
+Menampilkan perbedaan antara file yang ada di working directory dengan yang ada di staging area.
+
+git remote remove [nama_remote]
+git remote remove origin
+Menghapus remote repository dengan nama tertentu.
